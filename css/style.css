@@ -1,9 +1,0 @@
-.MenuPages a {
- 	color: White;
-}
-
-.MenuPages:hover, .MenuPages:active {
- 	background-color: #383838;
- 	border-radius: 25px
-}
-
