@@ -1,9 +1,24 @@
+body {
+    margin: 0;
+    background-color: #404040;
+}
+
+.MenuPages {
+	text-align: center;
+}
+
 .MenuPages a {
  	color: White;
+ 	text-decoration: none;
 }
 
 .MenuPages:hover, .MenuPages:active {
  	background-color: #383838;
  	border-radius: 25px
-}
 
+}
+.navbar-nav {
+  flex-basis: 40%;
+  flex-grow: .8;
+  align-items: center;
+}
