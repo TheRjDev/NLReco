@@ -6,8 +6,8 @@
 <head>
     <!--Import Google Icon Font-->
    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-   <!--Import materialize.css-->
-   <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection">
+   <!--Import Bootstrap.css-->
+   <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"  media="screen,projection">
    <link type="text/css" rel="stylesheet" href="css/style.css">
 
    <!--Let browser know website is optimized for mobile-->
@@ -17,7 +17,7 @@
 
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-   <title>NLReco</title>
+   <title>Finalizadas |NLReco</title>
 
 </head>
 
@@ -26,23 +26,36 @@
 
 <header>
 	
-	<div class="NavBar container">
-		
-		<ul class="Menu row">
-			<li class="col s3 MenuPages"> <a href="index.html">Inicio</a> </li>
-			<li class="col s3 MenuPages"> <a href="Finalizadas.html">Novelas Finalizadas</a> </li>
-			<li class="col s3 MenuPages"> <a href="Pausadas.html">Novelas Pausadas</a> </li>
-			<li class="col s3 MenuPages"> <a href="Abandonadas.html">Novelas Abandonadas</a> </li>
-		</ul>
+	<nav class="navbar navbar-expand-lg ">
+		<div class="container">
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarList" aria-controls="navbarList" aria-expanded="false" aria-label="Toggle navigation">
+      		<span class="navbar-toggler-icon"></span>  </button>
 
-	</div>
+			<div class="collapse navbar-collapse" id="navbarList">
+				<ul class="row navbar-nav mx-auto ">
+					<div class="col-3 "><li class="MenuPages nav-item"> <a class="m-2" href="index.html">Inicio</a> </li> </div>
+					<div class="col-3 "><li class="MenuPages nav-item"> <a class="m-2" href="Finalizadas.html">Novelas Finalizadas</a> </li> </div>
+					<div class="col-3 "><li class="MenuPages nav-item"> <a class="m-2" href="Pausadas.html">Novelas Pausadas</a> </li> </div>
+					<div class="col-3 "><li class="MenuPages nav-item"> <a class="m-2" href="Abandonadas.html">Novelas Abandonadas</a> </li> </div>
+				</ul>
+			</div>
+			
+
+
+		</div>
+	</nav>
+          
 
 
 </header>
 
+
+
 <!--JavaScript at end of body for optimized loading-->
-<script type="text/javascript" src="js/materialize.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+
 </body>
+
 
 
 </html>
