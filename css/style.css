@@ -10,6 +10,7 @@ body {
 .MenuPages a {
  	color: White;
  	text-decoration: none;
+ 	text-align: center;
 }
 
 .MenuPages:hover, .MenuPages:active {
